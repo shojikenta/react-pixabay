@@ -16,6 +16,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "postinstall": "gulp browserify",
+    "start": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
